@@ -11,6 +11,13 @@
 		B52B941C1F3A63BE00260D94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52B941B1F3A63BE00260D94 /* ViewController.swift */; };
 		B52B941E1F3A63BE00260D94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B52B941D1F3A63BE00260D94 /* Assets.xcassets */; };
 		B52B94211F3A63BE00260D94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B52B941F1F3A63BE00260D94 /* Main.storyboard */; };
+		B52B94291F3A641B00260D94 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52B94281F3A641B00260D94 /* Day.swift */; };
+		B52B942F1F3A665700260D94 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B52B942E1F3A665700260D94 /* CloudKit.framework */; };
+		B52B94311F3A6ABF00260D94 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52B94301F3A6ABF00260D94 /* ArrayExtension.swift */; };
+		B52B94361F3A732400260D94 /* 2012.txt in Resources */ = {isa = PBXBuildFile; fileRef = B52B94321F3A732400260D94 /* 2012.txt */; };
+		B52B94371F3A732400260D94 /* 2013.txt in Resources */ = {isa = PBXBuildFile; fileRef = B52B94331F3A732400260D94 /* 2013.txt */; };
+		B52B94381F3A732400260D94 /* 2014.txt in Resources */ = {isa = PBXBuildFile; fileRef = B52B94341F3A732400260D94 /* 2014.txt */; };
+		B52B94391F3A732400260D94 /* 2015.txt in Resources */ = {isa = PBXBuildFile; fileRef = B52B94351F3A732400260D94 /* 2015.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,14 @@
 		B52B941D1F3A63BE00260D94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B52B94201F3A63BE00260D94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B52B94221F3A63BE00260D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B52B94281F3A641B00260D94 /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		B52B942A1F3A651700260D94 /* WeatherDataLoader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WeatherDataLoader.entitlements; sourceTree = "<group>"; };
+		B52B942E1F3A665700260D94 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		B52B94301F3A6ABF00260D94 /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		B52B94321F3A732400260D94 /* 2012.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2012.txt; sourceTree = "<group>"; };
+		B52B94331F3A732400260D94 /* 2013.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2013.txt; sourceTree = "<group>"; };
+		B52B94341F3A732400260D94 /* 2014.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2014.txt; sourceTree = "<group>"; };
+		B52B94351F3A732400260D94 /* 2015.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2015.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B52B942F1F3A665700260D94 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +54,7 @@
 			children = (
 				B52B94181F3A63BE00260D94 /* WeatherDataLoader */,
 				B52B94171F3A63BE00260D94 /* Products */,
+				B52B942B1F3A651B00260D94 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,13 +69,28 @@
 		B52B94181F3A63BE00260D94 /* WeatherDataLoader */ = {
 			isa = PBXGroup;
 			children = (
+				B52B94321F3A732400260D94 /* 2012.txt */,
+				B52B94331F3A732400260D94 /* 2013.txt */,
+				B52B94341F3A732400260D94 /* 2014.txt */,
+				B52B94351F3A732400260D94 /* 2015.txt */,
+				B52B942A1F3A651700260D94 /* WeatherDataLoader.entitlements */,
 				B52B94191F3A63BE00260D94 /* AppDelegate.swift */,
 				B52B941B1F3A63BE00260D94 /* ViewController.swift */,
+				B52B94301F3A6ABF00260D94 /* ArrayExtension.swift */,
+				B52B94281F3A641B00260D94 /* Day.swift */,
 				B52B941D1F3A63BE00260D94 /* Assets.xcassets */,
 				B52B941F1F3A63BE00260D94 /* Main.storyboard */,
 				B52B94221F3A63BE00260D94 /* Info.plist */,
 			);
 			path = WeatherDataLoader;
+			sourceTree = "<group>";
+		};
+		B52B942B1F3A651B00260D94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B52B942E1F3A665700260D94 /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +127,14 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = Y42DA4P669;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -121,8 +161,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B52B94381F3A732400260D94 /* 2014.txt in Resources */,
+				B52B94371F3A732400260D94 /* 2013.txt in Resources */,
+				B52B94391F3A732400260D94 /* 2015.txt in Resources */,
 				B52B941E1F3A63BE00260D94 /* Assets.xcassets in Resources */,
 				B52B94211F3A63BE00260D94 /* Main.storyboard in Resources */,
+				B52B94361F3A732400260D94 /* 2012.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +179,8 @@
 			files = (
 				B52B941C1F3A63BE00260D94 /* ViewController.swift in Sources */,
 				B52B941A1F3A63BE00260D94 /* AppDelegate.swift in Sources */,
+				B52B94291F3A641B00260D94 /* Day.swift in Sources */,
+				B52B94311F3A6ABF00260D94 /* ArrayExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +292,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WeatherDataLoader/WeatherDataLoader.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = Y42DA4P669;
 				INFOPLIST_FILE = WeatherDataLoader/Info.plist;
@@ -260,6 +308,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WeatherDataLoader/WeatherDataLoader.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = Y42DA4P669;
 				INFOPLIST_FILE = WeatherDataLoader/Info.plist;
@@ -289,6 +339,7 @@
 				B52B94271F3A63BE00260D94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
